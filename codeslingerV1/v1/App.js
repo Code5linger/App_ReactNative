@@ -21,6 +21,7 @@ export default function App() {
               color="#4775f2"
               style={{ position: "absolute", right: 20, top: 5 }}
             />
+
             <StatusBar style="auto" />
           </TitleBar>
           <ScrollView
@@ -31,12 +32,11 @@ export default function App() {
               paddingTop: 30,
             }}
             horizontal={true}
+            showsHorizontalScrollIndicator={false}
           >
-            <Logo
-              image={require("./assets/logo-framerx.png")}
-              text="Framer X"
-            />
-            <Logo image={require("./assets/logo-figma.png")} text="Figma" />
+            {logos.map((logo, index) => (
+              <Logo key={index} image={logo.image} text={logo.text} />
+            ))}
           </ScrollView>
           <Subtitle>Continue Learning</Subtitle>
           <ScrollView
@@ -44,20 +44,16 @@ export default function App() {
             style={{ paddingBottom: 30 }}
             showsHorizontalScrollIndicator={false}
           >
-            <Card
-              title="Styled Components"
-              image={require("./assets/background12.jpg")}
-              caption="React Native"
-              logo={require("./assets/logo-react.png")}
-              subtitle="5 of 12 sections"
-            />
-            <Card
-              title="Styled Components 2"
-              image={require("./assets/background1.jpg")}
-              caption="React Native"
-              logo={require("./assets/logo-react.png")}
-              subtitle="5 of 12 sections"
-            />
+            {cards.map((card, index) => (
+              <Card
+                key={index}
+                title={card.title}
+                image={card.image}
+                caption={card.caption}
+                logo={card.logo}
+                subtitle={card.subtitle}
+              />
+            ))}
           </ScrollView>
         </ScrollView>
       </SafeAreaView>
@@ -88,10 +84,6 @@ const Avatar = styled.Image`
 const Container = styled.View`
   flex: 1;
   background-color: #f0f3f5;
-  /*
-  justify-content: center;
-  align-items: center;
-  */
 `;
 
 const Title = styled.Text`
@@ -111,3 +103,61 @@ const TitleBar = styled.View`
   margin-top: 58px;
   padding-left: 80px;
 `;
+
+const logos = [
+  {
+    image: require("./assets/logo-framerx.png"),
+    text: "Framer X",
+  },
+  {
+    image: require("./assets/logo-figma.png"),
+    text: "Figma",
+  },
+  {
+    image: require("./assets/logo-invision.png"),
+    text: "Invision",
+  },
+  {
+    image: require("./assets/logo-react.png"),
+    text: "React",
+  },
+  {
+    image: require("./assets/logo-sketch.png"),
+    text: "Sketch",
+  },
+  {
+    image: require("./assets/logo-studio.png"),
+    text: "Studio",
+  },
+];
+
+const cards = [
+  {
+    title: "React Native for Designers",
+    image: require("./assets/background11.jpg"),
+    subtitle: "React Native",
+    caption: "1 of 12 sections",
+    logo: require("./assets/logo-react.png"),
+  },
+  {
+    title: "Styled Components",
+    image: require("./assets/background12.jpg"),
+    subtitle: "React Native",
+    caption: "2 of 12 sections",
+    logo: require("./assets/logo-react.png"),
+  },
+  {
+    title: "Props and Icons",
+    image: require("./assets/background13.jpg"),
+    subtitle: "React Native",
+    caption: "3 of 12 sections",
+    logo: require("./assets/logo-react.png"),
+  },
+  {
+    title: "Static Data and Loop",
+    image: require("./assets/background14.jpg"),
+    subtitle: "React Native",
+    caption: "4 of 12 sections",
+    logo: require("./assets/logo-react.png"),
+  },
+];
