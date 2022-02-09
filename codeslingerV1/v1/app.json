@@ -6,7 +6,7 @@
     "orientation": "default",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash (2).png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#f0f3f5"
     },
@@ -21,7 +21,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon (2).png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
