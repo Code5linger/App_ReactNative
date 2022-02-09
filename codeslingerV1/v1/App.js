@@ -1,20 +1,50 @@
 import React from "react";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { ScrollView, SafeAreaView } from "react-native";
 import styled from "styled-components";
 import Card from "./components/Card";
+import { Ionicons } from "@expo/vector-icons";
 
 export default function App() {
   return (
-    <Container /*style={styles.container}*/>
-      <TitleBar>
-        <Avatar source={require("./assets/avatar.jpg")}></Avatar>
-        <Title>Welcome Back,</Title>
-        <Name>Code</Name>
-        <StatusBar style="auto" />
-      </TitleBar>
-      <Subtitle>Continue Learning</Subtitle>
-      <Card />
+    <Container>
+      <SafeAreaView>
+        <ScrollView style={{ height: "100%" }}>
+          <TitleBar>
+            <Avatar source={require("./assets/avatar.jpg")}></Avatar>
+            <Title>Welcome Back,</Title>
+            <Name>Code</Name>
+            <Ionicons
+              name="ios-notifications"
+              size={32}
+              color="#4775f2"
+              style={{ position: "absolute", right: 20, top: 5 }}
+            />
+            <StatusBar style="auto" />
+          </TitleBar>
+          <Subtitle>Continue Learning</Subtitle>
+          <ScrollView
+            horizontal={true}
+            style={{ paddingBottom: 30 }}
+            showsHorizontalScrollIndicator={false}
+          >
+            <Card
+              title="Styled Components"
+              image={require("./assets/background12.jpg")}
+              caption="React Native"
+              logo={require("./assets/logo-react.png")}
+              subtitle="5 of 12 sections"
+            />
+            <Card
+              title="Styled Components 2"
+              image={require("./assets/background1.jpg")}
+              caption="React Native"
+              logo={require("./assets/logo-react.png")}
+              subtitle="5 of 12 sections"
+            />
+          </ScrollView>
+        </ScrollView>
+      </SafeAreaView>
     </Container>
   );
 }
