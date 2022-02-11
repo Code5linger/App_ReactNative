@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "v3",
-    "slug": "v3",
+    "name": "v4",
+    "slug": "v4",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash (2).png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#f0f3f5"
+      "backgroundColor": "#DC143C"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +22,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#000000"
+        "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
