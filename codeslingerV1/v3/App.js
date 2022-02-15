@@ -4,6 +4,7 @@ import { SafeAreaView, ScrollView } from "react-native";
 import styled from "styled-components";
 import Card from "./components/Card";
 import { Ionicons } from "@expo/vector-icons";
+import Logo from "./components/Logo";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
               style={{ position: "absolute", right: 20, top: 5 }}
             />
           </TitleBar>
+          <Logo image={require("./assets/logo-framerx.png")} text="Framer X" />
           <Subtitle>Continue Learning</Subtitle>
           <ScrollView
             horizontal={true}
