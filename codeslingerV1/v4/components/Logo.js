@@ -27,7 +27,7 @@ const Image = styled.Image`
 `;
 
 const Text = styled.Text`
-  font-size: 600;
+  font-size: bold;
   font-size: 17px;
   margin-left: 8px;
 `;
