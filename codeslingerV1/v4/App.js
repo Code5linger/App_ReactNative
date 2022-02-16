@@ -15,7 +15,7 @@ export default function App() {
           <TitleBar>
             <Avatar source={require("./assets/avatar.jpg")}></Avatar>
             <Title>Welcome back,</Title>
-            <Name>CodeSlinger</Name>
+            <Name>CodeSlinger v4.2</Name>
             <Ionicons
               name="notifications-sharp"
               size={32}
