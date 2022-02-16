@@ -6,6 +6,7 @@ import Card from "./components/Card";
 import { Ionicons } from "@expo/vector-icons";
 import Logo from "./components/Logo";
 import Course from "./components/Course";
+import Avatar from "./components/Avatar";
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
       <SafeAreaView>
         <ScrollView style={{ height: "100%" }}>
           <TitleBar>
-            <Avatar source={require("./assets/avatar.jpg")}></Avatar>
+            <Avatar />
             <Title>Welcome back,</Title>
             <Name>CodeSlinger v4.2</Name>
             <Ionicons
@@ -83,7 +84,7 @@ const TitleBar = styled.View`
   margin-top: 50px;
   padding-left: 80px;
 `;
-
+/*
 const Avatar = styled.Image`
   width: 44px;
   height: 44px;
@@ -94,7 +95,7 @@ const Avatar = styled.Image`
   top: 0;
   left: 0;
 `;
-
+*/
 const Title = styled.Text`
   font-size: 16px;
   color: #b8bece;
