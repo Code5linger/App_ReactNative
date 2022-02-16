@@ -7,6 +7,7 @@ import { Ionicons } from "@expo/vector-icons";
 import Logo from "./components/Logo";
 import Course from "./components/Course";
 import Avatar from "./components/Avatar";
+import { connect } from "react-redux";
 
 export default function App() {
   return (
@@ -72,6 +73,12 @@ export default function App() {
       <StatusBar style="auto" />
     </Container>
   );
+}
+
+function mapStateToProps(state) {
+  return {
+    name: state.name,
+  };
 }
 
 const Container = styled.View`

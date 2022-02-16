@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { connect } from "react-redux";
 
 function mapStateToProps(state) {
   return {
@@ -25,7 +26,7 @@ class Avatar extends React.Component {
   componentDidMount() {
     fetch("https://uifaces.co/api?limit=1&random", {
       headers: new Headers({
-        "X-API-KEY": "DD072B9B-407E4AD9-9FC647EE-B87B8230",
+        "X-API-KEY": "eeaafbe81657073cd70ac6e3de1bd6",
       }),
     })
       .then((response) => response.json())
@@ -45,28 +46,10 @@ class Avatar extends React.Component {
   }
 }
 
-export default Avatar;
+export default connect(mapStateToProps, mapDispatchToProps)(Avatar);
 
 const Image = styled.Image`
   width: 44px;
   height: 44px;
-  background: black;
   border-radius: 22px;
-  margin-left: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
 `;
-
-/*
-<Avatar source={require("./assets/avatar.jpg")}></Avatar>
-
-  width: 44px;
-  height: 44px;
-  background: black;
-  border-radius: 22px;
-  margin-left: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-*/
