@@ -69,7 +69,7 @@ The Expo developer tools will open in your browser and you will see a page like 
 
 ```sh
 # Clone the project.
-git clone https://github.com/Code5linger/letter.git
+git clone https://github.com/Code5linger/App_ReactNative.git
 ```
 
 ## Misc
@@ -86,8 +86,4 @@ Made with :blue_heart: by [TheCodeSlinger](http://www.thecodeslinger.me)
 
 [![Demo App Blog](https://i.ibb.co/JHtxc4q/ezgif-com-gif-maker.gif)](https://youtu.be/BoQ4NVdfwXc)
 
-https://youtu.be/BoQ4NVdfwXc
-
 [![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
-
-https://i.ibb.co/NLBytzz/200w.gif
