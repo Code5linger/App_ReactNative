@@ -82,4 +82,4 @@ Follow Sakib Ahmed: [Website](http://www.thecodeslinger.me), [Twitter](https://t
 
 Made with :blue_heart: by [TheCodeSlinger](http://www.thecodeslinger.me)
 
-[![Demo App Blog](https://i.ibb.co/NLBytzz/200w.gif)](https://youtu.be/BoQ4NVdfwXc)
+[![Demo App Blog](blogapp.mp4)](https://youtu.be/BoQ4NVdfwXc)
