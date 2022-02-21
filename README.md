@@ -1,5 +1,5 @@
 # BLOG APP
-https://i.ibb.co/JHtxc4q/ezgif-com-gif-maker.gif
+
 This is the repository of Blog App. The app was created as a portfolio item. Associated figma link can me found here ➡ [InVision](https://www.dropbox.com/s/4av17693kc1gxj7/DesignCode-ReactNative.zip?dl=0)
 
 # Overview
@@ -83,3 +83,7 @@ Follow Sakib Ahmed: [Website](http://www.thecodeslinger.me), [Twitter](https://t
 Made with :blue_heart: by [TheCodeSlinger](http://www.thecodeslinger.me)
 
 [![Demo App Blog](https://i.ibb.co/JHtxc4q/ezgif-com-gif-maker.gif)](https://youtu.be/BoQ4NVdfwXc)
+
+https://youtu.be/BoQ4NVdfwXc
+
+[![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
