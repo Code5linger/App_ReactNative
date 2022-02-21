@@ -84,6 +84,6 @@ Made with :blue_heart: by [TheCodeSlinger](http://www.thecodeslinger.me)
 
 [![Demo App Blog](https://i.ibb.co/NLBytzz/200w.gif)](https://youtu.be/BoQ4NVdfwXc)
 
-[![Demo App Blog](https://i.ibb.co/JHtxc4q/ezgif-com-gif-maker.gif)](https://youtu.be/BoQ4NVdfwXc)
+[![Demo App Blog](https://youtu.be/BoQ4NVdfwXc)](https://youtu.be/BoQ4NVdfwXc)
 
-[![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
+[![Demo App Blog](https://i.ibb.co/JHtxc4q/ezgif-com-gif-maker.gif)](https://youtu.be/BoQ4NVdfwXc)
