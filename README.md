@@ -11,7 +11,7 @@ This portfolio was made with [React Native](https://reactnative.dev/). [Expo](ht
 
 Icon assets are going to be vector-based in SVG. For content and CMS (content management system), I used [Contentful](https://www.contentful.com/) and [Appollo](https://www.apollo.io/)/[GraphQL](https://graphql.org/), which allowed me to store my images and texts independently and query them like a database. Like this, when I update the content, I don't need to send an app update.
 
-I wued [Redux](https://redux.js.org/) for communicating between components so that one action can influence multiple components at the same time. This is especially useful for persistent states and data. Apart from that, I tried to use as many built-in libraries in the [React Native](https://reactnative.dev/)/[Expo](https://expo.io/) toolbox as possible, like Animated, Gestures, Icons and Navigation.
+I used [Redux](https://redux.js.org/) for communicating between components so that one action can influence multiple components at the same time. This is especially useful for persistent states and data. Apart from that, I tried to use as many built-in libraries in the [React Native](https://reactnative.dev/)/[Expo](https://expo.io/) toolbox as possible, like Animated, Gestures, Icons and Navigation.
 
 # Getting Started
 
