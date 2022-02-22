@@ -9,9 +9,9 @@ This is the repository of Blog App. The app was created as a portfolio item. Ass
 
 This portfolio was made with [React Native](https://reactnative.dev/). [Expo](https://expo.io/) was used to set up development environment so that it's easy to test our app in iOS and Android simulators, and physical devices. I used [Styled Components](https://styled-components.com/) because of its similarity to the syntax in CSS.
 
-Icon assets are going to be vector-based in SVG. For content and CMS (content management system), I used [Contentful](https://www.contentful.com/) and [Appollo](https://www.apollo.io/)/[GraphQL](https://graphql.org/), which allowed me to store my images and texts independently and query them like a database. Like this, when we update the content, we don't need to send an app update.
+Icon assets are going to be vector-based in SVG. For content and CMS (content management system), I used [Contentful](https://www.contentful.com/) and [Appollo](https://www.apollo.io/)/[GraphQL](https://graphql.org/), which allowed me to store my images and texts independently and query them like a database. Like this, when I update the content, I don't need to send an app update.
 
-We're going to use [Redux](https://redux.js.org/) for communicating between components so that one action can influence multiple components at the same time. This is especially useful for persistent states and data. Apart from that, we're going to use as many built-in libraries in the [React Native](https://reactnative.dev/)/[Expo](https://expo.io/) toolbox as possible, like Animated, Gestures, Icons and Navigation.
+I wued [Redux](https://redux.js.org/) for communicating between components so that one action can influence multiple components at the same time. This is especially useful for persistent states and data. Apart from that, I tried to use as many built-in libraries in the [React Native](https://reactnative.dev/)/[Expo](https://expo.io/) toolbox as possible, like Animated, Gestures, Icons and Navigation.
 
 # Getting Started
 
