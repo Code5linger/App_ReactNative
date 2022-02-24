@@ -4,6 +4,7 @@ This is the repository of Blog App. The app was created as a portfolio item. Ass
 
 
 [![Demo App Blog](Hero.jpg)](https://youtu.be/BoQ4NVdfwXc)
+https://user-images.githubusercontent.com/44304373/155448872-69b18212-3d70-435d-a6ae-81984ab4c6c4.mp4
 
 # Overview
 
