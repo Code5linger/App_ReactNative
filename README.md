@@ -6,7 +6,7 @@ This is the repository of Blog App. The app was created as a portfolio item. Ass
 [![Demo App Blog](Hero.jpg)](https://youtu.be/BoQ4NVdfwXc)
 
 Live Demo:
-https://user-images.githubusercontent.com/44304373/155448872-69b18212-3d70-435d-a6ae-81984ab4c6c4.mp4
+(https://youtu.be/BoQ4NVdfwXc)
 
 # Overview
 
@@ -87,9 +87,3 @@ Follow Sakib Ahmed: [Website](http://www.thecodeslinger.me), [Twitter](https://t
 [MIT](LICENSE)
 
 Made with :blue_heart: by [TheCodeSlinger](http://www.thecodeslinger.me)
-
-[![Demo App Blog](Hero.jpg)](https://youtu.be/BoQ4NVdfwXc)
-
-[![Demo App Blog](https://youtu.be/BoQ4NVdfwXc)](https://youtu.be/BoQ4NVdfwXc)
-
-[![Demo App Blog](https://i.ibb.co/JHtxc4q/ezgif-com-gif-maker.gif)](https://youtu.be/BoQ4NVdfwXc)
